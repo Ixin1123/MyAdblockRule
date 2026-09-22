@@ -1,0 +1,39 @@
+{
+  "schema_version": 3,
+  "policy": "availability-first; no hosts suffix compression",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/damengzhu/abpmerge/refs/heads/main/abpmerge.txt",
+      "format": "abp",
+      "sha256": "647a7bb88eee97d2b2308fecfadbfd704a964c1a4b72d5aef9f30f04fb8cb8e6",
+      "unique_blocked": 62075,
+      "unique_allowed": 1365,
+      "counts": {
+        "badfilter_directives": 11,
+        "block_rules": 62075,
+        "comments_blank_headers": 5575,
+        "conservative_exceptions": 1813,
+        "cosmetic_skipped": 12382,
+        "disabled_rules": 4,
+        "lines": 100982,
+        "unresolved_exceptions": 235,
+        "unsupported_skipped": 18887
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt",
+      "format": "hosts",
+      "sha256": "77d24c6d86da7a41ad9dde3398be04b261220a95a6c13fa36c0511b5c885e52f",
+      "unique_blocked": 958,
+      "unique_allowed": 0,
+      "counts": {
+        "block_rules": 1916,
+        "comments_blank_headers": 13,
+        "lines": 1931,
+        "unsupported_skipped": 2
+      }
+    }
+  ],
+  "removed_by_upstream_exceptions": 1704,
+  "output_domains": 61143
+}
