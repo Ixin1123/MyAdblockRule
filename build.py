@@ -201,7 +201,28 @@ def build(root=ROOT, fetch=download, accept=False):
     guard(len(blocks), previous.get('output_domains',0) if same_version else 0,'final output',accept)
     report = {'schema_version':VERSION,'policy':'availability-first; no hosts suffix compression',
               'sources':sources,'removed_by_upstream_exceptions':removed,'output_domains':len(blocks)}
-    hosts = '# MyAdBlockRules v3 - exact hosts only\n# Domains: '+str(len(blocks))+'\n'
+    from datetime import datetime, timezone, timedelta
+    beijing_time = datetime.now(
+        timezone(timedelta(hours=8))
+    ).strftime("%Y-%m-%d %H:%M:%S")
+
+    header = [
+        "# 名称：MyAdblockRule 去广告合并规则",
+        "# 维护者：Ixin1123",
+        "# 上游来源：damengzhu/abpmerge、AWAvenue-Ads-Rule",
+        "# 仓库：https://github.com/Ixin1123/MyAdblockRule",
+        "# 订阅：https://gcore.jsdelivr.net/gh/Ixin1123/MyAdblockRule@main/rules/adblockhosts.txt",
+        "# 原始链接：https://raw.githubusercontent.com/Ixin1123/MyAdblockRule/main/rules/adblockhosts.txt",
+        f"# 生成时间：{beijing_time}（北京时间 UTC+8）",
+        "# 更新频率：每8小时自动检查并生成",
+        f"# 域名数量：{len(blocks)}",
+        "# 格式：Hosts；保留父子域名，仅删除完全重复项",
+        "",
+    ]
+    hosts = "\n".join(header)
+    hosts += "".join(
+        f"0.0.0.0 {d}\n" for d in sorted(blocks)
+    )
     hosts += ''.join('0.0.0.0 '+d+'\n' for d in sorted(blocks))
     # All validations precede publication. GitHub commits both outputs together.
     directory = root/'rules'
