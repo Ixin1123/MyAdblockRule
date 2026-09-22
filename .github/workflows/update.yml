@@ -1,0 +1,44 @@
+name: Update adblock hosts
+
+on:
+  schedule:
+    - cron: "23 */8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-adblock-hosts
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build merged hosts list
+        run: |
+          python -m unittest discover -s tests -v
+          python build.py
+
+      - name: Commit changed output
+        run: |
+          git add rules/adblockhosts.txt rules/stats.json
+          if git diff --cached --quiet; then
+            echo "No rule changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rules/adblockhosts.txt rules/stats.json
+          git commit -m "chore: update adblock hosts"
+          git push
