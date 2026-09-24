@@ -4,7 +4,7 @@
 # 仓库：https://github.com/Ixin1123/MyAdblockRule
 # 订阅：https://gcore.jsdelivr.net/gh/Ixin1123/MyAdblockRule@main/rules/adblockhosts.txt
 # 原始链接：https://raw.githubusercontent.com/Ixin1123/MyAdblockRule/main/rules/adblockhosts.txt
-# 生成时间：2026-09-24 21:36:33（北京时间 UTC+8）
+# 生成时间：2026-09-25 04:01:20（北京时间 UTC+8）
 # 更新频率：每8小时自动检查并生成
 # 域名数量：61887
 # 格式：Hosts；保留父子域名，仅删除完全重复项
