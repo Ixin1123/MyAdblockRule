@@ -5,18 +5,18 @@
     {
       "url": "https://raw.githubusercontent.com/damengzhu/abpmerge/refs/heads/main/abpmerge.txt",
       "format": "abp",
-      "sha256": "19bccd2835a66260f51d586043ac828eb9f8bfc977f8d8c8cc7896a7d5ca69b2",
-      "unique_blocked": 56230,
-      "unique_allowed": 1351,
+      "sha256": "913b56449bbc7fa9ea9077fd4f0af4ab8895e3d31675d1bd213308b77ef36b92",
+      "unique_blocked": 56360,
+      "unique_allowed": 1350,
       "counts": {
         "badfilter_directives": 11,
-        "block_rules": 56230,
+        "block_rules": 56360,
         "comments_blank_headers": 5406,
-        "conservative_exceptions": 1787,
-        "cosmetic_skipped": 12219,
+        "conservative_exceptions": 1786,
+        "cosmetic_skipped": 12221,
         "disabled_rules": 3,
-        "lines": 94227,
-        "unresolved_exceptions": 235,
+        "lines": 94359,
+        "unresolved_exceptions": 236,
         "unsupported_skipped": 18336
       }
     },
@@ -34,6 +34,6 @@
       }
     }
   ],
-  "removed_by_upstream_exceptions": 1697,
-  "output_domains": 55316
+  "removed_by_upstream_exceptions": 1696,
+  "output_domains": 55447
 }
