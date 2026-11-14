@@ -23,17 +23,17 @@
     {
       "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt",
       "format": "hosts",
-      "sha256": "0b9ec1cb24307fdce38b9a39a8587bd4c99a679944d04d3c80e0b4bcc84a86e9",
-      "unique_blocked": 954,
+      "sha256": "2e87ad8070ab6b3bd37abd0f1145fc38391ca8117d3297456d964423e3539ba4",
+      "unique_blocked": 964,
       "unique_allowed": 0,
       "counts": {
-        "block_rules": 1908,
+        "block_rules": 1928,
         "comments_blank_headers": 13,
-        "lines": 1923,
+        "lines": 1943,
         "unsupported_skipped": 2
       }
     }
   ],
-  "removed_by_upstream_exceptions": 1694,
-  "output_domains": 56067
+  "removed_by_upstream_exceptions": 1697,
+  "output_domains": 56074
 }

@@ -4,9 +4,9 @@
 # 仓库：https://github.com/Ixin1123/MyAdblockRule
 # 订阅：https://gcore.jsdelivr.net/gh/Ixin1123/MyAdblockRule@main/rules/adblockhosts.txt
 # 原始链接：https://raw.githubusercontent.com/Ixin1123/MyAdblockRule/main/rules/adblockhosts.txt
-# 生成时间：2026-11-14 23:10:35（北京时间 UTC+8）
+# 生成时间：2026-11-15 04:47:12（北京时间 UTC+8）
 # 更新频率：每8小时自动检查并生成
-# 域名数量：56067
+# 域名数量：56074
 # 格式：Hosts；保留父子域名，仅删除完全重复项
 0.0.0.0 000123456789.online
 0.0.0.0 000123456789.site
@@ -5242,6 +5242,7 @@
 0.0.0.0 aplpmvfnyoxji.space
 0.0.0.0 aplytazqgfoup.online
 0.0.0.0 apmcx60sm5.com
+0.0.0.0 apmplus.volces.com
 0.0.0.0 apmruhdf.in
 0.0.0.0 apnpr.com
 0.0.0.0 apocharetzian.com
@@ -16063,6 +16064,7 @@
 0.0.0.0 erranddealing.com
 0.0.0.0 errandfourteenthcatering.com
 0.0.0.0 erriteskither.qpon
+0.0.0.0 errnewlog.umeng.com
 0.0.0.0 errors.house
 0.0.0.0 erseducationin.org
 0.0.0.0 ershniff.com
@@ -27883,6 +27885,7 @@
 0.0.0.0 leyudceditkcm.website
 0.0.0.0 lezbrja.cn
 0.0.0.0 lezplamgzs.com
+0.0.0.0 lf-event-manager.oceanengine.com
 0.0.0.0 lf2cgxz0b.com
 0.0.0.0 lf3-ad-union-sdk.pglstatp-toutiao.com
 0.0.0.0 lf6-ad-union-sdk.pglstatp-toutiao.com
@@ -28600,6 +28603,7 @@
 0.0.0.0 log-api.huxiu.com
 0.0.0.0 log-api.pangolin-sdk-toutiao-b.com
 0.0.0.0 log-api.pangolin-sdk-toutiao.com
+0.0.0.0 log-auth.zztfly.com
 0.0.0.0 log-report.com
 0.0.0.0 log-upload-os.hoyoverse.com
 0.0.0.0 log-upload.mihoyo.com
@@ -42239,6 +42243,8 @@
 0.0.0.0 shiersgilling.com
 0.0.0.0 shieryuefajkix.com
 0.0.0.0 shigl.top
+0.0.0.0 shihuo-new.log.shihuocdn.cn
+0.0.0.0 shihuo.log.shihuocdn.cn
 0.0.0.0 shijixinrui.cn
 0.0.0.0 shilfapalamaenaoto.qpon
 0.0.0.0 shili.downxia.com
@@ -48215,6 +48221,7 @@
 0.0.0.0 upbidshamer.cfd
 0.0.0.0 upbindsswythe.com
 0.0.0.0 upboresoutar.com
+0.0.0.0 upc.zztfly.com
 0.0.0.0 upcityarles.com
 0.0.0.0 upcomingperusehike.com
 0.0.0.0 upcuoicobbycl.site
@@ -61309,6 +61316,7 @@
 0.0.0.0 aplpmvfnyoxji.space
 0.0.0.0 aplytazqgfoup.online
 0.0.0.0 apmcx60sm5.com
+0.0.0.0 apmplus.volces.com
 0.0.0.0 apmruhdf.in
 0.0.0.0 apnpr.com
 0.0.0.0 apocharetzian.com
@@ -72130,6 +72138,7 @@
 0.0.0.0 erranddealing.com
 0.0.0.0 errandfourteenthcatering.com
 0.0.0.0 erriteskither.qpon
+0.0.0.0 errnewlog.umeng.com
 0.0.0.0 errors.house
 0.0.0.0 erseducationin.org
 0.0.0.0 ershniff.com
@@ -83950,6 +83959,7 @@
 0.0.0.0 leyudceditkcm.website
 0.0.0.0 lezbrja.cn
 0.0.0.0 lezplamgzs.com
+0.0.0.0 lf-event-manager.oceanengine.com
 0.0.0.0 lf2cgxz0b.com
 0.0.0.0 lf3-ad-union-sdk.pglstatp-toutiao.com
 0.0.0.0 lf6-ad-union-sdk.pglstatp-toutiao.com
@@ -84667,6 +84677,7 @@
 0.0.0.0 log-api.huxiu.com
 0.0.0.0 log-api.pangolin-sdk-toutiao-b.com
 0.0.0.0 log-api.pangolin-sdk-toutiao.com
+0.0.0.0 log-auth.zztfly.com
 0.0.0.0 log-report.com
 0.0.0.0 log-upload-os.hoyoverse.com
 0.0.0.0 log-upload.mihoyo.com
@@ -98306,6 +98317,8 @@
 0.0.0.0 shiersgilling.com
 0.0.0.0 shieryuefajkix.com
 0.0.0.0 shigl.top
+0.0.0.0 shihuo-new.log.shihuocdn.cn
+0.0.0.0 shihuo.log.shihuocdn.cn
 0.0.0.0 shijixinrui.cn
 0.0.0.0 shilfapalamaenaoto.qpon
 0.0.0.0 shili.downxia.com
@@ -104282,6 +104295,7 @@
 0.0.0.0 upbidshamer.cfd
 0.0.0.0 upbindsswythe.com
 0.0.0.0 upboresoutar.com
+0.0.0.0 upc.zztfly.com
 0.0.0.0 upcityarles.com
 0.0.0.0 upcomingperusehike.com
 0.0.0.0 upcuoicobbycl.site
