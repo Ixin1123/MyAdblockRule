@@ -5,17 +5,17 @@
     {
       "url": "https://raw.githubusercontent.com/damengzhu/abpmerge/refs/heads/main/abpmerge.txt",
       "format": "abp",
-      "sha256": "047d381b87d5923ab2f08c83cc17cdc8f1f31fe2a60f212cec4c7fd76f264472",
-      "unique_blocked": 57715,
+      "sha256": "ec7fd01ec9597f9d834afe0350bfa7ad0e42e398bb16f91805e57ff8f58dba6c",
+      "unique_blocked": 57962,
       "unique_allowed": 1350,
       "counts": {
         "badfilter_directives": 11,
-        "block_rules": 57715,
+        "block_rules": 57962,
         "comments_blank_headers": 5408,
         "conservative_exceptions": 1787,
         "cosmetic_skipped": 12233,
         "disabled_rules": 3,
-        "lines": 95711,
+        "lines": 95958,
         "unresolved_exceptions": 236,
         "unsupported_skipped": 18318
       }
@@ -23,7 +23,7 @@
     {
       "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt",
       "format": "hosts",
-      "sha256": "b1056acc2252cc3a12af218e1b1ba93c67d4eee7383089b5c971b0a6a6d865dd",
+      "sha256": "5314edcfde42fb3b306fde4d5cf6f3ab2a44f66f03903d2406aa3ebe0ec02aa9",
       "unique_blocked": 978,
       "unique_allowed": 0,
       "counts": {
@@ -35,5 +35,5 @@
     }
   ],
   "removed_by_upstream_exceptions": 1698,
-  "output_domains": 56815
+  "output_domains": 57062
 }
